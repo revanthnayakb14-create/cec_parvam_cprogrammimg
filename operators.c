@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 10, b = 3;
+
+    //arithmetic
+    printf("a+b=%d\n",a+b);
+    printf("a-b=%d\n",a-b);
+    printf("a*b=%d\n",a*b);
+    printf("a/b=%d\n",a/b);
+    printf("a%%b=%d\n",a%b);
+
+    //relational
+    printf("a>b=%d\n",a>b);
+    printf("a==b=%d\n",a==b);
+
+    //logical (combine conditions)
+    int cond=(a>0)&&(b>0);
+    printf("both positive=%d\n",cond);
+
+    return 0;
+
+}
